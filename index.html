@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holman Api Client Tool</title>
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+    <header>
+        <img src="GeoTab.png" alt="GeoTab">
+     </header>
+
+ <form id="login" style = "position:relative; left:140px; top:-155px;">
+    <h3>Sign in to continue</h3>
+<label for="server" style="color:black">Server Name </label>
+<input  id="server" placeholder="Example: my.geotab.com"> 
+
+<label for="database" style="color:black">Database</label>
+<input  id="database" placeholder="Example: MyCompnay">
+
+<label for="email" style="color:black">Email</label>
+<input  id="email" placeholder="myname@company.com">
+
+<label for="password" style="color:black">Password</label>
+<input  type="password" id="password">
+
+<button type="button" onclick="run()"> 
+    Sign in
+</button> 
+</form>
+
+<div class="form" id="userinp" style = 'display: none'>
+    <div class="inputfield">
+       <label> Enter Device Serial Number</label>
+       <input type="text" class="input" id="serial">
+    </div>  
+     <div class="inputfieldTwo">
+        <input type="button" id="btn1" class="input" onclick="run()" value="Submit">
+    </div>  
+
+    <button onClick="window.location.reload(true)" style = "position:relative; left:405px; top:-155px;" >Sign Out</button>
+
+    <p id="loading"></p>
+    <p id="name"></p>
+    <p id="VIN"></p>
+    <p id="odometer"></p> 
+    <p id="source"></p>
+    <p id="ignition"></p>
+    <p id="loc"></p>
+    <p id="communication"></p>
+    <p id="gps"></p>
+    <p id="display"></p>
+    <p id="plan"></p>
+    <p id="trip"></p>
+    <p style="color:red; font-size:10px;" id="note"></p>
+ </div>
+</div>	
+
+<script src="https://cdn.jsdelivr.net/npm/mg-api-js"></script>
+<script src="apitool.js"> </script> 
+  
+</body>
+</html>

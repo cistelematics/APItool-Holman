@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mg-api-js": "^2.0.4",
+    "node-fetch": "^3.2.8"
+  }
+}

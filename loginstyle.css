@@ -1,0 +1,61 @@
+header{
+    width: 1300px;
+    height: 60px;
+    border-bottom: white;
+    font-family: 'Poppins';
+    background-color: white;
+    outline-style: solid;
+}
+
+img{
+  padding-left: 10px;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: grey;
+}
+
+button {
+    padding: 5px 20px;
+    margin: 0 0 0 -1px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin: 1px;
+}
+
+input{
+    height: 20px;
+}
+
+form{
+ margin: 200px;
+ margin-left: 300px;
+ background-color: white;
+ width: 200px;
+ padding: 100px;
+ border-radius: 10px;
+}
+
+.form  {
+margin-left: 340px;
+margin-top: -30px;
+background-color: white;
+width: 400px;
+height: 700px;
+padding: 100px;
+border-radius: 20px;
+}
+
+.form .inputfield label{
+    margin-bottom: 10px;
+}
+
+.form .inputfield input{
+    margin-bottom: 10px;
+}
